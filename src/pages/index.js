@@ -14,7 +14,7 @@ const index = () => {
    <main>
       <Seo
         tittle = "Avocadog | Healthy Food"
-        description = "Resolucion de  tareas, examenes y clases particulares de matematica y fisica para estudiantes de primaria y secundaria del Peru"
+        description = "Dark Kitchen/Restaurant de comida saludable en pueblo libre"
       />
 
         <Background />

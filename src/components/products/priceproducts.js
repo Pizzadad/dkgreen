@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import {StaticImage} from 'gatsby-plugin-image'
 import IconDinner from './iconDinner'
+import { Link } from 'gatsby'
 
 const priceproducts = () => {
     return (
@@ -36,10 +37,15 @@ const priceproducts = () => {
                                                 <span className="text-2xl leading-none align-baseline">.99</span>
                                             </div>
                                             <div className="inline-block align-middle">
-                                                <button className="bg-transparent py-2 px-4 border font-semibold uppercase border-black text-gray-800
-                                                    rounded-full
-                                                hover:bg-black   hover:text-white   hover:border-transparent">
-                                                    <i className="mdi mdi-cart -ml-2 mr-2"></i> BUY NOW</button>
+                                                <Link 
+                                                    to="/pago"
+                                                >
+                                                    <button className="bg-transparent py-2 px-4 border font-semibold uppercase border-black text-gray-800
+                                                        rounded-full
+                                                    hover:bg-black   hover:text-white   hover:border-transparent">
+                                                        BUY NOW                                                                                                 
+                                                    </button>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

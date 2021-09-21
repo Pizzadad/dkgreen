@@ -10,9 +10,14 @@ module.exports = {
           325: '#b0bcd0'
         },
         green: {
+          
+          55: '#E4EFE7',
           375: '#71c0bb',
           350: '#94D0CC',
           325: '#b7e0dd'
+        },
+        yellow: {
+          55: '#FDFAF6'       
         },
       }
     },
