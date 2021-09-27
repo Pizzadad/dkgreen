@@ -21,7 +21,7 @@ const textinformation = () => {
                 <h1 className="text-left  text-gray-800 font-medium text-xl lg:text-5xl pb-4 uppercase italic">
                     Unos segundos en tu boca,
                     <p className="text-white bg-black w-11/12 transform -skew-x-12">
-                        una vida en tus caderas.
+                        una vida en tu cuerpo.
                     </p>
                     Come sabio, te queremos  
                     <div className="flex flex-row">
@@ -37,7 +37,7 @@ const textinformation = () => {
                      href="#priccesDiv"
                      className="
                     bg-transparent py-2 px-4 border font-semibold uppercase border-black text-gray-800
-                    lg:rounded-tr-lg lg:rounded-none rounded-full
+                    lg:rounded-tr-lg lg:rounded-none rounded-full lg:text-lg text-sm
                     hover:bg-black   hover:text-white   hover:border-transparent">
                         Ver platillos
                     </a>
@@ -45,7 +45,7 @@ const textinformation = () => {
                         to="/maps"
                     >
                         <button className="bg-transparent py-2 px-4 border font-semibold uppercase border-black text-gray-800
-                    lg:rounded-tr-lg lg:rounded-none rounded-full
+                    lg:rounded-tr-lg lg:rounded-none rounded-full lg:text-lg text-sm
                     hover:bg-black   hover:text-white   hover:border-transparent">
                             Cobertura de Reparto                                                                                                
                         </button>

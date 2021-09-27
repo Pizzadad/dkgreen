@@ -37,9 +37,9 @@ const formPay = () => {
                                                 <p className="leading-loose">Platillo</p>
                                                 <select name="cars" id="cars" className="px-4 py-2 border focus:ring-gray-500 focus:border-gray-900 w-full sm:text-sm border-gray-300 rounded-md focus:outline-none text-gray-600">
                                                     <option value="1">Galleta de Avena</option>
-                                                    <option value="2">Ensalada Romana</option>
-                                                    <option value="3">Atún</option>
-                                                    <option value="4">Plato del día</option>
+                                                    <option value="2">Paquete de Hamburguesas de Lenteja</option>
+                                                    <option value="3">Especial de Atún</option>
+                                                    <option value="4">Desayuno Saludable</option>
                                                 </select>
                                             </div>
                                             <div className="flex flex-col w-1/2">

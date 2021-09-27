@@ -69,30 +69,50 @@ const qr = () => {
                     </div>
                     <div className="flex flex-col items-center md:items-start justify-center md:justify-start md:w-1/2 w-full h-full">
                         <div className="text-lg md:text-xl font-semibold uppercase underline">Números para Yape o Plin</div>
-                        <div className="flex flex-row space-x-4 md:flex-col md:space-y-1">
+                        <div className="flex flex-row space-x-4 md:space-x-0 md:flex-col md:space-y-1">
                             <div className="flex flex-row">
-                                <span className="mr-1">♥ 
-                                </span>
-                                <p className="text-black text-lg md:text-xl">999999999</p>                           
+                                <StaticImage
+                                className="h-8 w-8 mr-4"
+                                imgClassName="md:h-8 h-10 md:w-8 w-10"
+                                    alt="bcp ico"
+                                    src= "../../images/yapeico.png"
+                                    objectFit
+                                />
+                                <p className="text-black text-lg md:text-xl">991177495</p>                           
                             </div>
                             <div className="flex flex-row">
-                                <span className="mr-1">♥
-                                </span>
-                                <p className="text-black text-lg md:text-xl">999999999</p>                       
+                                <StaticImage
+                                className="md:h-8 h-10 md:w-8 w-10 mr-4"
+                                imgClassName="h-8 w-8"
+                                    alt="bcp ico"
+                                    src= "../../images/plin.png"
+                                    objectFit
+                                />
+                                <p className="text-black text-lg md:text-xl">991177495</p>                       
                             </div>                        
                         </div>
 
                         <div className="text-lg md:text-xl font-semibold uppercase underline">Números de cuenta</div>
-                        <div className="flex flex-row space-x-4 md:flex-col md:space-y-1">
+                        <div className="flex flex-row space-x-4 md:space-x-0 md:flex-col md:space-y-1">
                             <div className="flex flex-row">
-                                <span className="mr-1">♦ 
-                                </span>
-                                <p className="text-black text-lg md:text-xl">999999999</p>                           
+                                <StaticImage
+                                className="md:h-8 h-10 md:w-8 w-10 mr-4"
+                                imgClassName="h-8 w-8"
+                                    alt="bcp ico"
+                                    src= "../../images/bbva.png"
+                                    objectFit
+                                />
+                                <p className="text-black text-lg md:text-xl">0011-0139-0200878260</p>                           
                             </div>
                             <div className="flex flex-row">
-                                <span className="mr-1">♦
-                                </span>
-                                <p className="text-black text-lg md:text-xl">999999999</p>                       
+                                <StaticImage
+                                className="md:h-8 h-10 md:w-8 w-10 mr-4"
+                                imgClassName="h-8 w-8"
+                                    alt="bcp ico"
+                                    src= "../../images/bcp.png"
+                                    objectFit
+                                />
+                                <p className="text-black text-lg md:text-xl">1939-2921728029</p>                       
                             </div>                        
                         </div>
                     </div>

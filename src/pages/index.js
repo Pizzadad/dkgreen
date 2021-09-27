@@ -13,7 +13,7 @@ const index = () => {
   return (
    <main>
       <Seo
-        tittle = "Avocadog | Healthy Food"
+        tittle = "Enma | Healthy Food"
         description = "Dark Kitchen/Restaurant de comida saludable en pueblo libre"
       />
 
