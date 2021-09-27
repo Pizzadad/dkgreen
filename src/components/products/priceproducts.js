@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import CardProducts from './cardProducts'
+import CardProducts from './CardProducts'
 
 
 const priceproducts = () => {
