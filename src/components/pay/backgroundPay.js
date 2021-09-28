@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
-import FormPay from './FormPay'
+import FormPago from './FormPago'
+
 import Qr from './qr'
 
 const backgroundPay = () => {
@@ -21,8 +22,8 @@ const backgroundPay = () => {
                         </svg>                  
                     </div>
                     <div className="flex flex-col md:w-6/12 w-full md:h-full h-1/2 ">
+                        <FormPago />
                         
-                        <FormPay />
                     </div>
                 </div>
                 
