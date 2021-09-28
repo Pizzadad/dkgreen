@@ -1,7 +1,14 @@
-import React, { Fragment } from 'react'
-const formPay = () => {
+import React, { Fragment, useState } from 'react'
+import Confetti from '@reonomy/react-confetti-explosion';
+import ConfettiGlobal from '../global/ConfettiGlobal';
+
+
+const FormPay = () => {
+    const [confetti, setConfetti] = useState(false)
     return (
         <Fragment>
+            {confetti ? <ConfettiGlobal isCopied = {confetti} /> : ""}
+           
             <div className="px-3 h-full flex flex-col space-y-2 items-center justify-center">
                 <div className="flex flex-col items-center justify-center w-full h-1/5"> 
                    
@@ -66,7 +73,12 @@ const formPay = () => {
                                     </div>
                                     <div className="pt-3 flex items-center space-x-4">
                                         
-                                        <button className="bg-black flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none uppercase">Enviar Pedido</button>
+                                        <button 
+                                        onClick={() => {
+                                            setConfetti(true) 
+                                            setTimeout(() => setConfetti(false), 3000)}}
+                                        className="bg-black flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none uppercase">
+                                            Enviar Pedido</button>
                                     </div>
                                 </div>
                             </div>
@@ -79,4 +91,4 @@ const formPay = () => {
     )
 }
 
-export default formPay
+export default FormPay

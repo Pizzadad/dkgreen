@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import FormPay from './formPay'
+import FormPay from './FormPay'
 import Qr from './qr'
 
 const backgroundPay = () => {

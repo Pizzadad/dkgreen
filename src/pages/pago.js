@@ -14,7 +14,7 @@ const pago = () => {
 
             <BackgroundPay />
             <WhattsapButton />
-            <Footer />
+            
         </Fragment>
     )
 }
