@@ -21,6 +21,7 @@ const backgroundPay = () => {
                         </svg>                  
                     </div>
                     <div className="flex flex-col md:w-6/12 w-full md:h-full h-1/2 ">
+                        
                         <FormPay />
                     </div>
                 </div>

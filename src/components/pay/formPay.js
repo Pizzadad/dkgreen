@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import Confetti from '@reonomy/react-confetti-explosion';
+
 import ConfettiGlobal from '../global/ConfettiGlobal';
 
 
